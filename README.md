@@ -1,0 +1,1 @@
+# minicurso_git_bioinfo_bcmm2026
