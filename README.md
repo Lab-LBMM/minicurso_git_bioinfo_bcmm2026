@@ -1,4 +1,4 @@
-# Minicurso Git e Gihub para dados biológicos - BCMM 2026
+# Minicurso Git e Github para dados biológicos - BCMM 2026
 
 Data: 22/10/2026
 Horário: 14h às 18h
