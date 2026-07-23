@@ -6,11 +6,11 @@ Sala:
 
 **Ministrantes e monitores**
 
-Lorena Ferreira da Silva (monitor)
-Julia Ferreira Santos (monitor)
-Fabio Rodrigo de Freitas (monitor)
-Stefany Renata Rodrigues (monitor)
-Renato Augusto Corrêa dos Santos (ministrante)
+ * Lorena Ferreira da Silva (monitor)
+ * Julia Ferreira Santos (monitor)
+ * Fabio Rodrigo de Freitas (monitor)
+ * Stefany Renata Rodrigues (monitor)
+ * Dr. Renato Augusto Corrêa dos Santos (ministrante)
 
 **Resumo**
 
