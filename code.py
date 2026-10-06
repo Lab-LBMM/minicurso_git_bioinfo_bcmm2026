@@ -12,13 +12,10 @@ dados = pd.read_csv("RT-PCR_IL1.csv")
 #Calculo da média
 media = dados.mean()
 print(media)
-
 print(dados)
 
 
 #Organizando a tabela
-#ados_long = 
-
 
 #Gráfico
 plt.bar(dados.columns, media, color = "blue", edgecolor = "black", linewidth = 2, hatch = '/')
