@@ -36,8 +36,15 @@ AAAAAAAAAAAAAAAA"""
 alvo = "GGAAGGAGTTCATGCGTTT"
 
 # 3. Limpeza: removemos as quebras de linha do texto do gene
-gene_limpo = gene_tnfr1.replace("\n", "")
+gene_limpo = gene_tnfr1.replace("\n", "").upper()
+alvo = alvo.upper()
 
-# 4. Buscamos a posição (adicionamos +1 pois o Python começa a contar do 0)
+# 4. Buscamos a posição (adicionamos +1 pois o Python começa a contar do 0, e a biologia do 1)
 posicao = gene_limpo.find(alvo) + 1
-print(posicao)
+
+if posicao > 0:
+    print(f"✅ Sequência alvo encontrada!")
+    print(f"Posição inicial: nucleotídeo {posicao}")
+    print(f"Posição final: nucleotídeo {posicao + len(alvo) - 1}")
+else:
+    print("Sequência não encontrada no gene.")

@@ -7,7 +7,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 #Importação dos dados 
-dados_IL1 = pd.read_csv("RT-PCR_IL1.csv", header=0)
+dados_IL1 = pd.read_csv("Dados/RT-PCR_IL1.csv", header=0)
 
 #Calculo da média
 media = dados_IL1.mean()
@@ -23,10 +23,10 @@ tabela_medias = dados_IL1_long.groupby(['Genótipo', 'Condição'])['Resultado']
 print(tabela_medias)
 
 #Gráfico
-tabela_medias.plot(kind='bar',color=["lightblue", "gray"], edgecolor="black", linewidth=2, figsize=(8, 8))
-plt.title("Quantificação de IL-1β por RT-PCR", fontsize = 18)
-plt.ylabel("IL-1β/GAPDH", fontsize = 14)
-plt.xlabel("Amostras", fontsize = 14)
+tabela_medias.plot(kind='bar',color=["darkred", "darkorange"], edgecolor="black", linewidth=1, figsize=(8, 8))
+plt.title("Titulo", fontsize = 18)
+plt.ylabel("Titulo_y", fontsize = 14)
+plt.xlabel("Titulo_x", fontsize = 14)
 plt.savefig("Gráfico_barras.png", dpi = 600, bbox_inches = "tight")
 plt.show()
 
