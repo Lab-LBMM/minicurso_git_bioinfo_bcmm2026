@@ -36,8 +36,7 @@ AAAAAAAAAAAAAAAA"""
 alvo = "GGAAGGAGTTCATGCGTTT"
 
 # 3. Limpeza: removemos as quebras de linha do texto do gene
-gene_limpo = gene_tnfr1.replace("\n", "").upper()
-alvo = alvo.upper()
+gene_limpo = gene_tnfr1.replace("\n", "")
 
 # 4. Buscamos a posição (adicionamos +1 pois o Python começa a contar do 0, e a biologia do 1)
 posicao = gene_limpo.find(alvo) + 1
