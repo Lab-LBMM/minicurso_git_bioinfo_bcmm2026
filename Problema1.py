@@ -16,8 +16,9 @@ media = dados_IL1.mean()
 
 #Organizando a tabela para criar o gráfico
 dados_IL1_long = pd.melt(dados_IL1, var_name="Amostra", value_name="Resultado")
-print(dados_IL1_long.head())
+print(dados_IL1_long)
 dados_IL1_long[['Genótipo', 'Condição']] = dados_IL1_long['Amostra'].str.split("_", expand=True)
+print(dados_IL1_long)
 tabela_medias = dados_IL1_long.groupby(['Genótipo', 'Condição'])['Resultado'].mean().unstack()
 print(tabela_medias)
 
