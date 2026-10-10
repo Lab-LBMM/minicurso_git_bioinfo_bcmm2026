@@ -26,7 +26,3 @@ plt.xlabel("Titulo_x", fontsize = 14)
 plt.savefig("Gráfico_barras.png", dpi = 600, bbox_inches = "tight")
 plt.show()
 
-
-
-
-
