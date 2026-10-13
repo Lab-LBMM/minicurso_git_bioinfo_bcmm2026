@@ -1,5 +1,4 @@
 ##Código criado para o Minicurso de git e github##
-##Autores:
 
 #bibliotecas/pacotes
 import numpy as np
@@ -19,10 +18,11 @@ print(tabela_medias)
 
 #Gráfico
 plt.style.use('fast')
-tabela_medias.plot(kind='bar',color=["lightblue", "red"], edgecolor="black", linewidth=2, figsize=(8, 8))
+tabela_medias.plot(kind='bar',color=["lightblue", "teal"], width=0.9 , edgecolor="black", linewidth=2, figsize=(8, 9))
 plt.title("Quantificação de IL-1β por RT-PCR", fontsize = 18)
-plt.ylabel("IL-1β/GAPDH", fontsize = 14)
-plt.xlabel("Amostras", fontsize = 14)
+plt.ylabel("IL-1β/GAPDH", fontsize = 16)
+plt.xlabel("Amostras", fontsize = 16)
+plt.xticks(fontsize = 14, rotation=45)
 plt.savefig("Gráfico_barras.png", dpi = 600, bbox_inches = "tight")
 plt.show()
 

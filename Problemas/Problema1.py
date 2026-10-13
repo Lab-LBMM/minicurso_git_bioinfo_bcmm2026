@@ -1,5 +1,4 @@
 ##Código criado para o Minicurso de git e github##
-##Autores:
 
 #bibliotecas/pacotes
 import numpy as np

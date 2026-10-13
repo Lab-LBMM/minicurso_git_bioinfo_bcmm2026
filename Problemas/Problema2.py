@@ -1,4 +1,4 @@
-# 1. Transcrito do gene tnfr1 de mus musculos (NM_011609.4)
+# 1. Transcrito do gene tnfr1 de Mus musculos (NM_011609.4)
 gene_tnfr1 = """CGCTCTTGCAACACCACCCCCGCCACTCTCCCTTCCCCTCCTACCTTCTCTCTCCCCTCAGCTTAAATTT
 TCTCCGAGTTTTCCGAACTCTGGCTCATGATCGGGCCTACTGGGTGCGAGGTCCTGGAGGACCGTACCCT
 GATCTCTATCTGCCTCTGACTTTCAGCTTCTCGAACTCGAGGCCCAGGCTGCCATCGCCCGGGCCACCTG
@@ -35,7 +35,7 @@ AAAAAAAAAAAAAAAA"""
 # 2. Região alvo shTNFR1
 alvo = "GGAAGGAGTTCATGCGTTT"
 
-# 3. Limpeza: removemos as quebras de linha do texto do gene
+# 3. Removemos as quebras de linha do texto do gene
 gene_limpo = gene_tnfr1.replace("\n", "")
 
 # 4. Buscamos a posição (adicionamos +1 pois o Python começa a contar do 0)
