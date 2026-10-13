@@ -18,7 +18,7 @@ print(tabela_medias)
 
 #Gráfico
 plt.style.use('fast')
-tabela_medias.plot(kind='bar',color=["lightblue", "teal"], width=0.9 , edgecolor="black", linewidth=2, figsize=(8, 9))
+tabela_medias.plot(kind='bar',color=["goldenrod", "skyblue"], width=0.92 , edgecolor="black", linewidth=2, figsize=(8, 9))
 plt.title("Quantificação de IL-1β por RT-PCR", fontsize = 18)
 plt.ylabel("IL-1β/GAPDH", fontsize = 16)
 plt.xlabel("Amostras", fontsize = 16)
