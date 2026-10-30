@@ -1,8 +1,10 @@
 # Minicurso Git e Github para dados biológicos - BCMM 2026
 
-Data: 22/10/2026
-Horário: 14h às 18h
-Local: sala de reuniões do Centro de Estudos de Insetos Sociais (CEIS/UNESP)
+ * Data: 22/10/2026
+ * Horário: 14h às 18h
+ * Local: sala de reuniões do Centro de Estudos de Insetos Sociais (CEIS/UNESP Rio Claro)
+
+Minicurso ministrado como parte do VI Encontro Anual do BCMM (UNESP Rio Claro)
 
 **Ministrantes e monitores**
 
