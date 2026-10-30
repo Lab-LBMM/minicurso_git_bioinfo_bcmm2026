@@ -6,11 +6,11 @@ Local: sala de reuniões do Centro de Estudos de Insetos Sociais (CEIS/UNESP)
 
 **Ministrantes e monitores**
 
- * Lorena Ferreira da Silva (monitor)
- * Julia Ferreira Santos (monitor)
- * Fabio Rodrigo de Freitas (monitor)
- * Stefany Renata Rodrigues (monitor)
- * Dr. Renato Augusto Corrêa dos Santos (ministrante)
+ * Lorena Ferreira da Silva (ministrante e monitor) [@loreninhafsilva](https://github.com/loreninhafsilva)
+ * Julia Ferreira Santos (ministrante e monitor) [@lia002ju](https://github.com/lia002ju)
+ * Fabio Rodrigo de Freitas (ministrante e monitor) [@FabioRFreitas](https://github.com/FabioRFreitas)
+ * Stefany Renata Rodrigues (ministrante e monitor) [@Stefany2020](https://github.com/Stefany2020)
+ * Dr. Renato Augusto Corrêa dos Santos (ministrante e monitor) [@SantosRAC](https://github.com/SantosRAC)
 
 **Resumo**
 
