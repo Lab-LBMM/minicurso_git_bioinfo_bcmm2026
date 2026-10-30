@@ -2,7 +2,7 @@
 
 Data: 22/10/2026
 Horário: 14h às 18h
-Sala: 
+Local: sala de reuniões do Centro de Estudos de Insetos Sociais (CEIS/UNESP)
 
 **Ministrantes e monitores**
 
